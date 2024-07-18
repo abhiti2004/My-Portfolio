@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9fb1c5629c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo2.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!-- <p>Front-End-Designer</p> -->
+                <h1>Hello, It's me <br><span>Abhishek Kumar </span> <br></h1>
+                <div class="wrapper">
+                    <div class="static-txt">I'm a</div>
+                    <ul class="dynamic-txts">
+                      <li><span>DSA Enthusiast</span></li>
+                      <li><span>Designer</span></li>
+                      <li><span>Developer</span></li>
+                      <li><span>Creator</span></li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+  <!-- ---------About-------- -->
+        <div id="about">
+           <div class="container1">
+            <div class="row">
+                <div class="about-col-1">
+                 <img src="images/Mypic.png" class="logo2" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                <p>Passionate Web Developer with expertise in creating responsive, user-friendly websites using HTML, CSS, and JavaScript. Committed to continuous learning and improving web performance and accessibility.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>DSA</span><br>GFG Problem solving</li>
+                        <li><span>Web Development</span><br>Wed app Development</li>
+                        <li><span>Game Designer</span><br>Buildings Android Game</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>DSA</span><br>More than 1 year Experience</li>
+                        <li><span>Web Development</span><br>More than 2 year Experience</li>
+                        <li><span>Game Designer</span><br>1 year of Experience</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Current</span><br>Hemvati Nandan Bahuguna Garhwal A Central University</li>
+                        <li><span>2021</span><br>12th passout</li>
+                        <li><span>2019</span><br>10th passout</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+           </div>
+        <!-- </div> -->
+   
+        <!-- -------------Services---------- -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Developer</h2>
+                        <p> Using HTML, CSS, and JavaScript, replicating key design elements and functionality to showcase advanced web development skills._Implemented responsive design and interactive features, ensuring a user-friendly experience across various devices and screen sizes.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-gamepad"></i>
+                        <h2>Game Designer</h2>
+                        <p> Designed and implemented immersive adventure game environments using Unity Engine & Core Engine, enhancing player engagement through innovative mechanics and storytelling.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>REACT</h2>
+                        <p>Innovative Web Developer with 1+ years of experience designing, coding, and maintaining dynamic websites and web applications using HTML, CSS, JavaScript, and modern frameworks like React and Angular. Proven track record of improving user experience.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- -------------Portfolio--------- -->
+        <div id="portfolio">
+            <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                       <h3>HTML, CSS, JAVA SCRIPT</h3>
+                       <p>Front-End design and functionality to demonstrate proficiency in web development.</p>
+                       <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                    <h3>UNITY ENGINE, CORE ENGINE</h3>
+                    <p> Designed and implemented immersive adventure game environments using Unity Engine & Core Engine.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                </div>
+            </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                    <h3>REACT</h3>
+                    <p>HTML, CSS, JavaScript and modern frameworks like React. Proven track record of improving user experience.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- -----------------Contact Me---------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>abhiti2004@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9580168281</p>
+                <div class="social-icon">
+                 <a href="https://github.com/abhiti2004"><i class="fa-brands fa-github"></i></a>
+                 <a href="https://www.facebook.com/profile.php?id=100042727187075"><i class="fa-brands fa-facebook"></i></a>
+                 <a href="https://www.linkedin.com/in/abhishek-kumar-7b58182b6/"><i class="fa-brands fa-linkedin"></i></a>
+                 <a href="https://x.com/Abhishe57537141"><i class="fa-brands fa-x-twitter"></i></a>
+                 <a href="https://www.instagram.com/abhi_kumar_4141/"><i class="fa-brands fa-instagram"></i></a>
+             </div>
+             <a href="images/my-cv.pdf.txt" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Massage" rows="6" placeholder="Your Massage"></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Abhishek kumar. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+    </div>
+</div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+ <!-- ------------Github---------------- -->
+ <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby_FIqcY1CZ7uuLmRSyL68aW-Hra7fLEyFQr4VD40zZsorC5_lizUmliPoMi2AHLYAD/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        } )
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
